@@ -1,3 +1,7 @@
 {
-  "item.tutorialmod.zircon": "Zircon"
+  "item.tutorialmod.metallicuranium": "Metallic uranium",
+  "item.tutorialmod.rawuranium": "Raw uranium",
+  "block.tutorialmod.rawuraniumblock": "Block of raw uranium",
+  "block.tutorialmod.metallicuraniumblock": "Block of metallic uranium",
+  "block.tutorialmod.uraniumore": "Block of uranium ore"
 }

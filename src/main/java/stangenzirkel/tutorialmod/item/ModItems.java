@@ -16,8 +16,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item> ZIRCON =
-            ITEMS.register("zircon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> METALLIC_URANIUM =
+            ITEMS.register("metallicuranium", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> RAW_URANIUM =
+            ITEMS.register("rawuranium", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
 
