@@ -1,7 +1,7 @@
 {
-  "item.tutorialmod.metallicuranium": "Metallic uranium",
-  "item.tutorialmod.rawuranium": "Raw uranium",
-  "block.tutorialmod.rawuraniumblock": "Block of raw uranium",
-  "block.tutorialmod.metallicuraniumblock": "Block of metallic uranium",
-  "block.tutorialmod.uraniumore": "Block of uranium ore"
+  "item.tutorialmod.metallic_uranium": "Metallic uranium",
+  "item.tutorialmod.raw_uranium": "Raw uranium",
+  "block.tutorialmod.raw_uranium_block": "Block of raw uranium",
+  "block.tutorialmod.metallic_uranium_block": "Block of metallic uranium",
+  "block.tutorialmod.uranium_ore_block": "Block of uranium ore"
 }

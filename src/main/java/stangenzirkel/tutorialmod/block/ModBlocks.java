@@ -24,13 +24,13 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
     public static final RegistryObject<Block> RAW_URANIUM_BLOCK =
-            registerBlock("rawuraniumblock", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+            registerBlock("raw_uranium_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     public static final RegistryObject<Block> METALLIC_URANIUM_BLOCK =
-            registerBlock("metallicuraniumblock", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+            registerBlock("metallic_uranium_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
-    public static final RegistryObject<Block> URANIUM_ORE =
-            registerBlock("uraniumore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> URANIUM_ORE_BLOCK =
+            registerBlock("uranium_ore_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
