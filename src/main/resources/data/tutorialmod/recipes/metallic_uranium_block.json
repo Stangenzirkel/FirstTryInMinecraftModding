@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uranium",
+  "key": {
+    "#": {
+      "item": "tutorialmod:metallic_uranium"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "tutorialmod:metallic_uranium_block"
+  }
+}

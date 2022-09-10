@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "uranium",
+  "ingredients": [
+    {
+      "item": "tutorialmod:metallic_uranium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:metallic_uranium"
+  }
+}

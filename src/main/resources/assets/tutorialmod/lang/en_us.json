@@ -3,5 +3,6 @@
   "item.tutorialmod.raw_uranium": "Raw uranium",
   "block.tutorialmod.raw_uranium_block": "Block of raw uranium",
   "block.tutorialmod.metallic_uranium_block": "Block of metallic uranium",
-  "block.tutorialmod.uranium_ore_block": "Block of uranium ore"
+  "block.tutorialmod.uranium_ore_block": "Block of uranium ore",
+  "block.tutorialmod.deepslate_uranium_ore_block": "Block of uranium ore"
 }
